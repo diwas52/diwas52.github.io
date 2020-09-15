@@ -1120,7 +1120,25 @@ Change widths as necessary
   .g3 {
     width: 98.0%
   }
+
+  .hobbies-container {
+    display: block;
+    position: relative;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .hobbies-listing{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .hobbies-list {
+    margin-left: 6px;
+    margin-top: 6px;
+  }
 }
+
 
 /* progress bar */
 .progress-item {
@@ -1299,4 +1317,8 @@ tbody {
   display: table-row-group;
   vertical-align: middle;
   display: grid;
+}
+
+.institute-name {
+  color: #2E8B57;
 }
